@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Nothing You Could Do';
+  src: url(../fonts/NothingYouCouldDo.ttf); format: (truetype);
+}
+
+body {
+ background-color: black;
+}
+
+div {
+  margin: 0 auto;
+  margin-top: 5%;
+  text-align: center;
+  background-image: url("lakes.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 480px;
+  width: 620px;
+  box-shadow: 0 0 40px white;
+  border-radius: 5%;
+}
+
+p {
+  width: 600px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 10%;
+  padding-top: 120px;
+  padding-bottom: 200px;
+  color: white;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 200%;
+}
+
+input {
+  border-radius: 15%;
+  font-family: 'Nothing You Could Do', cursive;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  font-size:120%;
+  border: none;
+  box-shadow: 0 0 20px white;
+  outline: none;
+  }
+
+  input:focus{
+    border: none;
+  }
+
+  input:hover {
+    background-color: silver;
+  }
